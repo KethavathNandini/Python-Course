@@ -1,0 +1,294 @@
+REGULAR EXPRESSION (REGEX) IN PYTHON - NOTES
+
+1. What is Regex in Python?
+
+Regular Expression (Regex) is a sequence of characters used to
+search, match, extract, and replace patterns in strings.
+
+Python provides the built-in module:
+
+import re
+
+
+2. Import Regex Module
+
+Syntax:
+
+import re
+
+
+3. Common Regex Functions in Python
+
+1) re.search()
+
+- Searches for the first match in a string.
+
+Example:
+
+import re
+
+text = "I have a cat"
+
+result = re.search("cat", text)
+
+print(result)
+
+Output:
+<re.Match object>
+
+
+2) re.findall()
+
+- Returns all matching patterns as a list.
+
+Example:
+
+import re
+
+text = "My numbers are 123 and 456"
+
+result = re.findall(r"\d+", text)
+
+print(result)
+
+Output:
+['123', '456']
+
+
+3) re.match()
+
+- Checks if the pattern exists at the beginning of a string.
+
+Example:
+
+import re
+
+text = "Python is easy"
+
+result = re.match("Python", text)
+
+print(result)
+
+
+4) re.sub()
+
+- Replaces matched patterns.
+
+Example:
+
+import re
+
+text = "Hello     World"
+
+result = re.sub(r"\s+", " ", text)
+
+print(result)
+
+Output:
+Hello World
+
+
+5) re.split()
+
+- Splits a string using a regex pattern.
+
+Example:
+
+import re
+
+text = "apple,orange;banana"
+
+result = re.split(r"[,;]", text)
+
+print(result)
+
+Output:
+['apple', 'orange', 'banana']
+
+
+--------------------------------------------------
+
+4. Common Regex Patterns in Python
+
+Pattern        Meaning
+
+\d             Any digit (0-9)
+
+\D             Not a digit
+
+\w             Letter, number, underscore
+
+\W             Special character
+
+\s             Whitespace
+
+\S             Not whitespace
+
+.              Any character
+
+^              Start of string
+
+$              End of string
+
++              One or more occurrences
+
+*              Zero or more occurrences
+
+?              Optional character
+
+{n}            Exactly n times
+
+[]             Character group
+
+|              OR condition
+
+
+--------------------------------------------------
+
+5. Examples
+
+Example 1: Find numbers
+
+Code:
+
+import re
+
+text = "My age is 25"
+
+result = re.findall(r"\d+", text)
+
+print(result)
+
+Output:
+
+['25']
+
+
+--------------------------------------------------
+
+Example 2: Find email
+
+Code:
+
+import re
+
+text = "Contact john@gmail.com"
+
+pattern = r"\w+@\w+\.\w+"
+
+result = re.findall(pattern, text)
+
+print(result)
+
+Output:
+
+['john@gmail.com']
+
+
+--------------------------------------------------
+
+Example 3: Validate phone number
+
+Code:
+
+import re
+
+phone = "9876543210"
+
+pattern = r"\d{10}"
+
+if re.fullmatch(pattern, phone):
+    print("Valid")
+else:
+    print("Invalid")
+
+Output:
+
+Valid
+
+
+--------------------------------------------------
+
+Example 4: Replace text
+
+Code:
+
+import re
+
+text = "Python   is   powerful"
+
+result = re.sub(r"\s+", " ", text)
+
+print(result)
+
+Output:
+
+Python is powerful
+
+
+--------------------------------------------------
+
+6. Raw Strings in Python Regex
+
+Python uses backslash (\) for escape characters.
+
+Instead of:
+
+"\\d+"
+
+we use:
+
+r"\d+"
+
+The r means raw string.
+
+Example:
+
+pattern = r"\d+"
+
+
+--------------------------------------------------
+
+7. Regex in AI/ML with Python
+
+Common uses:
+
+- Cleaning text data
+- Removing unwanted symbols
+- Extracting information
+- Processing NLP datasets
+
+Example:
+
+import re
+
+text = "Hello!!! Welcome to AI."
+
+clean = re.sub(r"[^a-zA-Z ]", "", text)
+
+print(clean)
+
+Output:
+
+Hello Welcome to AI
+
+
+--------------------------------------------------
+
+8. Important Functions to Remember
+
+re.search()  → Find first match
+
+re.findall() → Find all matches
+
+re.match()   → Match from beginning
+
+re.sub()     → Replace text
+
+re.split()   → Split text
+
+
+Simple Definition:
+
+Regex in Python is a tool used with the 're' module to find and
+manipulate text patterns efficiently.

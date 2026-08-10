@@ -1,0 +1,22 @@
+# How to Run the Program
+
+## Prerequisites
+- Python 3.x installed
+- PyCharm installed
+
+## Steps to Run in PyCharm
+
+1. Open **PyCharm**.
+2. Select **File → Open** and choose the project folder.
+3. Locate the Python file (e.g., `main.py`) in the **Project** panel.
+4. Right-click the file and select **Run 'main'**.
+   - Alternatively, open the file and click the **▶ Run** button in the top-right corner.
+5. The program output will appear in the **Run** window at the bottom.
+
+## Example
+
+If your file is named `factorial.py`, running it will display:
+
+```text
+120
+```
