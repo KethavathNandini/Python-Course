@@ -1,4 +1,824 @@
-----------------------------------------------------
-DAY-1
+# 🚀 AI Engineering Roadmap
 
-venv(virtual environment) =>
+A structured roadmap for learning **AI Engineering from beginner to job-ready level**.
+
+This repository contains my learning journey, notes, practice code, projects, and resources.
+
+---
+
+## 🎯 Goal
+
+Become a job-ready **AI Engineer** by building strong skills in:
+
+* Python
+* Git & GitHub
+* Mathematics
+* Data Science
+* Machine Learning
+* Deep Learning
+* NLP
+* Computer Vision
+* Transformers
+* Generative AI
+* Large Language Models (LLMs)
+* RAG
+* AI Agents
+* Backend Development
+* Databases
+* Docker
+* Cloud
+* MLOps / LLMOps
+* AI System Design
+
+---
+
+# 🗺️ Roadmap
+
+```text
+Python
+   ↓
+Git & GitHub
+   ↓
+Mathematics
+   ↓
+NumPy + Pandas
+   ↓
+SQL
+   ↓
+Machine Learning
+   ↓
+Scikit-learn
+   ↓
+Deep Learning
+   ↓
+PyTorch
+   ↓
+NLP + Computer Vision
+   ↓
+Transformers
+   ↓
+Generative AI
+   ↓
+LLMs
+   ↓
+Embeddings
+   ↓
+RAG
+   ↓
+AI Agents
+   ↓
+FastAPI + Backend
+   ↓
+Databases
+   ↓
+Docker
+   ↓
+Cloud
+   ↓
+MLOps / LLMOps
+   ↓
+AI System Design
+   ↓
+Projects
+   ↓
+Job Ready 🚀
+```
+
+---
+
+# 📚 Learning Path
+
+## 01. Python 🐍
+
+### Topics
+
+* Variables and data types
+* Operators
+* Conditions
+* Loops
+* Functions
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* Strings
+* File handling
+* Exception handling
+* Modules and packages
+* Object-Oriented Programming
+* Virtual environments
+* `pip`
+
+### Projects
+
+* Calculator
+* Number guessing game
+* To-do application
+* Notes application
+* File organizer
+
+---
+
+## 02. Git & GitHub 🔧
+
+### Topics
+
+* Git basics
+* Git repositories
+* Commits
+* Branches
+* Merging
+* GitHub
+* Pull requests
+* `.gitignore`
+* README files
+* Merge conflicts
+
+### Important Commands
+
+```bash
+git init
+git status
+git add .
+git commit -m "message"
+git log
+git branch
+git switch
+git pull
+git push
+git clone
+```
+
+---
+
+## 03. Mathematics 🧮
+
+### Linear Algebra
+
+* Scalars
+* Vectors
+* Matrices
+* Matrix multiplication
+* Dot product
+* Transpose
+* Norms
+
+### Probability
+
+* Probability
+* Conditional probability
+* Bayes theorem
+* Random variables
+* Distributions
+
+### Statistics
+
+* Mean
+* Median
+* Variance
+* Standard deviation
+* Correlation
+* Covariance
+
+### Calculus
+
+* Functions
+* Derivatives
+* Gradients
+* Chain rule
+* Gradient descent
+
+---
+
+## 04. Data Science 📊
+
+### NumPy
+
+* Arrays
+* Indexing
+* Broadcasting
+* Vectorization
+* Matrix operations
+
+### Pandas
+
+* DataFrames
+* Reading datasets
+* Data cleaning
+* Filtering
+* Grouping
+* Merging
+* Missing values
+
+### Visualization
+
+* Matplotlib
+* Seaborn
+
+---
+
+## 05. SQL 🗄️
+
+Learn:
+
+* SELECT
+* WHERE
+* ORDER BY
+* GROUP BY
+* HAVING
+* JOIN
+* Subqueries
+* Primary keys
+* Foreign keys
+* Indexes
+* PostgreSQL
+
+---
+
+## 06. Machine Learning 🤖
+
+### Supervised Learning
+
+* Linear Regression
+* Logistic Regression
+* Decision Trees
+* Random Forest
+* KNN
+* SVM
+* Gradient Boosting
+* XGBoost
+
+### Unsupervised Learning
+
+* K-Means
+* PCA
+* Hierarchical Clustering
+
+### Concepts
+
+* Training
+* Validation
+* Testing
+* Features
+* Labels
+* Overfitting
+* Underfitting
+* Regularization
+* Cross-validation
+* Hyperparameter tuning
+
+### Evaluation
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+* MAE
+* MSE
+* RMSE
+* R²
+
+---
+
+## 07. Deep Learning 🧠
+
+Learn:
+
+* Neural networks
+* Neurons
+* Activation functions
+* ReLU
+* Sigmoid
+* Softmax
+* Loss functions
+* Backpropagation
+* Gradient descent
+* Optimizers
+* Learning rate
+* Epochs
+* Batch size
+
+### Framework
+
+**PyTorch**
+
+---
+
+## 08. Computer Vision 👁️
+
+Learn:
+
+* Image processing
+* CNNs
+* Convolution
+* Pooling
+* Image augmentation
+* Transfer learning
+* Image classification
+* Object detection
+* Image segmentation
+
+### Projects
+
+* Cats vs Dogs classifier
+* Plant disease detection
+* Object detection system
+
+---
+
+## 09. NLP 📝
+
+Learn:
+
+* Text preprocessing
+* Tokenization
+* Bag of Words
+* TF-IDF
+* Word embeddings
+* Text classification
+* Sentiment analysis
+
+Then move to **Transformers**.
+
+---
+
+## 10. Transformers ⚡
+
+Learn:
+
+* Attention
+* Self-attention
+* Multi-head attention
+* Encoder
+* Decoder
+* Positional encoding
+* Transformer architecture
+* BERT
+* GPT-style models
+
+---
+
+## 11. Generative AI ✨
+
+Learn:
+
+* LLM fundamentals
+* Tokens
+* Context windows
+* Prompt engineering
+* Structured outputs
+* Function calling
+* Tool calling
+* Embeddings
+* Model inference
+* Model evaluation
+
+---
+
+## 12. RAG 📚
+
+**RAG = Retrieval-Augmented Generation**
+
+### Architecture
+
+```text
+Documents
+    ↓
+Document Processing
+    ↓
+Chunking
+    ↓
+Embeddings
+    ↓
+Vector Database
+    ↓
+Retrieval
+    ↓
+LLM
+    ↓
+Answer
+```
+
+### Learn
+
+* Document loaders
+* Chunking
+* Embeddings
+* Vector search
+* Metadata
+* Retrieval
+* Reranking
+* RAG evaluation
+
+### Project
+
+**AI PDF Assistant**
+
+---
+
+## 13. Vector Databases 🔢
+
+Learn at least one:
+
+* FAISS
+* Chroma
+* Qdrant
+* Pinecone
+* Weaviate
+
+Understand:
+
+* Vectors
+* Collections
+* Similarity search
+* Metadata
+* Filtering
+* Indexing
+
+---
+
+## 14. Fine-Tuning 🛠️
+
+Learn:
+
+* Pretraining
+* Fine-tuning
+* Instruction tuning
+* LoRA
+* QLoRA
+* PEFT
+* Dataset preparation
+* Model evaluation
+
+Understand when to use **RAG vs Fine-Tuning**.
+
+---
+
+## 15. AI Agents 🤖
+
+Learn:
+
+* Tool calling
+* Function calling
+* Agent loops
+* Memory
+* Planning
+* State
+* Workflows
+* Agent evaluation
+
+### Example
+
+```text
+User
+ ↓
+AI Agent
+ ├── Search Tool
+ ├── Calculator
+ ├── Document Tool
+ └── API Tool
+ ↓
+Final Answer
+```
+
+---
+
+## 16. Backend Development 🌐
+
+### Learn
+
+* HTTP
+* REST APIs
+* JSON
+* FastAPI
+* Authentication
+* API validation
+* Error handling
+* Async programming
+
+### Example
+
+```text
+Frontend
+   ↓
+FastAPI
+   ↓
+AI Model
+   ↓
+Database
+```
+
+---
+
+## 17. Databases 🗄️
+
+### SQL
+
+* PostgreSQL
+
+### Other technologies
+
+* Redis
+* Vector databases
+
+Understand:
+
+* Database design
+* Indexing
+* Transactions
+* Caching
+
+---
+
+## 18. Frontend 💻
+
+Learn enough frontend development to build AI applications.
+
+### Technologies
+
+* HTML
+* CSS
+* JavaScript
+* React
+
+Architecture:
+
+```text
+React
+  ↓
+FastAPI
+  ↓
+AI Backend
+```
+
+---
+
+## 19. Docker 🐳
+
+Learn:
+
+* Images
+* Containers
+* Dockerfile
+* Docker Compose
+* Volumes
+* Networks
+* Environment variables
+
+Example:
+
+```text
+Docker Compose
+│
+├── FastAPI
+├── PostgreSQL
+├── Redis
+└── AI Application
+```
+
+---
+
+## 20. Linux 🐧
+
+Learn:
+
+* Terminal
+* File permissions
+* Processes
+* SSH
+* Environment variables
+* Logs
+* Shell scripting
+
+---
+
+## 21. Cloud ☁️
+
+Choose one cloud platform first:
+
+* AWS
+* Azure
+* Google Cloud
+
+Learn:
+
+* Compute
+* Storage
+* Networking
+* Databases
+* IAM
+* Containers
+* Monitoring
+
+---
+
+## 22. MLOps / LLMOps ⚙️
+
+Learn:
+
+* Experiment tracking
+* Model versioning
+* Dataset versioning
+* CI/CD
+* Model deployment
+* Monitoring
+* Logging
+* Model evaluation
+* Prompt versioning
+* LLM evaluation
+
+---
+
+## 23. AI Security 🔐
+
+Learn:
+
+* Prompt injection
+* Jailbreaking
+* Data leakage
+* Authentication
+* Authorization
+* Secrets management
+* Input validation
+* Output validation
+* Rate limiting
+* PII protection
+
+---
+
+# 🏗️ Projects
+
+## Beginner
+
+* [ ] Calculator
+* [ ] To-do application
+* [ ] Notes application
+* [ ] File organizer
+* [ ] CLI application
+
+## Machine Learning
+
+* [ ] House price prediction
+* [ ] Student score prediction
+* [ ] Spam classifier
+* [ ] Customer churn prediction
+* [ ] Recommendation system
+
+## Deep Learning
+
+* [ ] Image classifier
+* [ ] Sentiment classifier
+* [ ] Neural network from scratch
+
+## Generative AI
+
+* [ ] LLM chatbot
+* [ ] AI summarizer
+* [ ] AI document assistant
+* [ ] PDF question-answering system
+
+## Advanced AI
+
+* [ ] RAG application
+* [ ] AI research assistant
+* [ ] AI agent with tools
+* [ ] Production RAG system
+* [ ] Full-stack AI application
+
+---
+
+# 🏆 Final Project
+
+## AI Knowledge Assistant
+
+```text
+                    User
+                      ↓
+                  React UI
+                      ↓
+                   FastAPI
+                      ↓
+                Authentication
+                      ↓
+                AI Orchestrator
+                      ↓
+          ┌───────────┼───────────┐
+          ↓           ↓           ↓
+         RAG        Tools         LLM
+          ↓           ↓
+      Vector DB     APIs
+          ↓
+      PostgreSQL
+          ↓
+        Redis
+          ↓
+       Docker
+          ↓
+        Cloud
+```
+
+---
+
+# 📂 Repository Structure
+
+```text
+AI-ENGINEERING/
+│
+├── 01-python/
+├── 02-git-github/
+├── 03-mathematics/
+├── 04-numpy-pandas/
+├── 05-sql/
+├── 06-machine-learning/
+├── 07-deep-learning/
+├── 08-pytorch/
+├── 09-nlp/
+├── 10-computer-vision/
+├── 11-transformers/
+├── 12-generative-ai/
+├── 13-rag/
+├── 14-ai-agents/
+├── 15-fastapi/
+├── 16-databases/
+├── 17-docker/
+├── 18-cloud/
+├── 19-mlops/
+└── 20-final-project/
+```
+
+---
+
+# 📈 Progress
+
+* [x] Started Python
+* [ ] Complete Python
+* [ ] Git & GitHub
+* [ ] Mathematics
+* [ ] NumPy & Pandas
+* [ ] SQL
+* [ ] Machine Learning
+* [ ] Deep Learning
+* [ ] PyTorch
+* [ ] NLP
+* [ ] Computer Vision
+* [ ] Transformers
+* [ ] Generative AI
+* [ ] RAG
+* [ ] AI Agents
+* [ ] FastAPI
+* [ ] Databases
+* [ ] Docker
+* [ ] Cloud
+* [ ] MLOps
+* [ ] Final Project
+* [ ] Portfolio
+* [ ] Job Ready 🚀
+
+---
+
+# 🎯 Learning Philosophy
+
+```text
+Learn
+  ↓
+Practice
+  ↓
+Build
+  ↓
+Break
+  ↓
+Debug
+  ↓
+Understand
+  ↓
+Build Again
+```
+
+The goal is not to complete as many courses as possible.
+
+The goal is to become capable of taking a real-world problem and building:
+
+```text
+Problem
+   ↓
+Code
+   ↓
+Model
+   ↓
+API
+   ↓
+AI Application
+   ↓
+Deployment
+   ↓
+Production System
+```
+
+---
+
+## 🚀 Current Focus
+
+**Python → Git/GitHub → NumPy/Pandas → SQL → Machine Learning**
+
+> One step at a time. Build projects while learning, and keep everything documented on GitHub.
